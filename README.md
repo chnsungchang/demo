@@ -1,7 +1,7 @@
 #demo   
 產業新尖兵
-![rap](rap.jpg)
-123456
-create a branch and merge to master
+![rap](rap.jpg)/n
+123456/n
+create a branch and merge to master/n
 
-merge the branch on github
+merge the branch on github/n
