@@ -3,7 +3,3 @@
 ![rap](rap.jpg)
 123456
 create a branch and merge to master
-create a branch and merge to master
-create a branch and merge to master
-create a branch and merge to master
-create a branch and merge to master
