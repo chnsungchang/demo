@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            align-items: center;
+            align-content:space-between;
+            background-color:teal
+        }
+        .inner-box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            font-size: 3rem;
+            background-color: thistle;
+        }
+        .a {
+            height: 250px;
+            /* flex-grow: 2; */
+        }
+        .c {
+            height : 300px;
+            order: 0;
+            /* flex-grow: 1; */
+            }
+        .b {
+            flex-shrink:0 ;
+        }
+    </style>
+</head>
+<body>
+   <div class="box">
+       <div class="inner-box a">1</div>
+       <div class="inner-box b">2</div>
+       <div class="inner-box c">3</div>
+       <div class="inner-box d">4</div>
+       <div class="inner-box e">5</div>
+
+   </div>
+   
+</body>
+</html>
