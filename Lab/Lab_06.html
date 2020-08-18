@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    caption{color: darkturquoise;}
+    table{
+
+    display: grid;
+    place-items: center;
+    margin: auto;
+    vertical-align: middle;
+    }
+    tr{background-color: rgb(255, 255, 255);
+    }
+    th{
+        font-family: 'Verdana'; text-align: center;
+    }
+       
+    td:first-child{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        
+    }
+    td{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-weight:lighter
+    }
+    td::first-letter{
+        color: #11171d;
+        font-variant-caps:normal; text-shadow: 0.5px 0.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    th{
+        text-align: center;
+    }
+    td{
+        vertical-align: middle;
+        text-align: center;
+    }
+    td.a{
+        background-color:#f1b8e4;
+    }
+    td.b{
+        background-color:#d9b8f1;
+    }
+    td.c{
+        background-color: #f1f1b8;
+    }
+    td.d{
+        background-color:#b8f1cc;
+    }
+    td.e{
+        background-color:#e1622f;
+    }
+    td:hover{
+        background-color: rgb(255, 255, 255);
+    }
+    .main {
+    display: grid;
+    place-items: top right
+  }
+
+    .parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    font-size:30px;
+  }
+  
+    .header {
+    display: grid;
+    grid-column: 2 / 3;
+    table-layout: fixed;
+    padding: 2rem;
+    place-items: center;
+    text-transform: uppercase;
+    }
+
+    .left-side {
+    display: grid;
+    table-layout: fixed;
+    grid-column: 1 / 2;
+  }
+
+    .main {
+    display: grid;
+    grid-column: 2 / 3;
+  }
+
+    .right-side {
+    display: grid;
+    table-layout: fixed;
+    grid-column: 3 / 4;
+  }
+
+    .footer {
+    display: grid;
+    grid-column: 2 / 3;
+    table-layout: fixed;
+
+  }
+   .parent {
+    display: grid;
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+    .visual {
+    display: grid;
+    height: 4cm;
+    width: 10cm;
+    background-color: #f1f1b8;
+  }
+
+    .card {
+    display: flex;
+    flex-direction: column;
+    width: 10cm;
+    justify-content: space-between;
+    background-color: #f1b8e4;
+  }
+
+    h3 {
+    display: grid;
+    margin: 0;
+    font-size:30px
+    
+  }
+  h1{
+    display: grid;
+    margin: 0;
+    font-size:50px
+  }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+    <div class="parent">
+        <header class="header">Coding class schedule</header>
+        <div class="left-side" contenteditable>
+            <div class="parent white">
+                <div class="card purple">
+                  <h1>INFO
+                    <div class="card yellow">
+                        <h3>Picture</h3>
+                        <p contenteditable></p>
+                        <div class="visual pink"></div>
+                    </div>
+                        <h1>Name
+                        <div class="card yellow">
+                        <h3></h3>
+                        <p contenteditable></p>
+                        <div class="visual pink"></div>
+                    </div>
+                        <h1>Interest
+                        <div class="card yellow">
+                        <h3></h3>
+                        <p contenteditable></p>
+                        <div class="visual pink"></div>
+                    </div>
+                        <h1>Club
+                        <div class="card yellow">
+                        <h3></h3>
+                        <p contenteditable></p>
+                        <div class="visual pink"></div>
+                    </div>
+                  </h1>
+                </div>
+              </div>
+        </div>
+        <main class="section coral" contenteditable> 
+                <table border="0"> <small>
+                    <caption>課表</caption>
+                    <thead>
+                        <td></td>
+                        <th>星期一</th>
+                        <th>星期二</th>
+                        <th>星期三</th>
+                        <th>星期四</th>
+                        <th>星期五</th>
+                    </therad>
+                    <tr>
+                        <td>09:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+                    </tr>
+                    <tr>
+                        <td>10:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+                    </tr>
+                    <tr>
+                        <td>11:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+            <tr>
+                <td> 12:10</td>
+                    <td colspan="6"<p style="font-size: 20px"></p>午休</td>
+            </tr>
+            
+                    </tr>
+                    <tr>
+                        <td> 13:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+                    </tr>
+                    <tr>
+                        <td>14:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+                    </tr>
+                    <tr>
+                        <td>15:10</td>
+                        <td class="a">python基礎程式設計</td>
+                        <td class="b">Web基礎程式設計</td>
+                        <td class="c">軟體工程專題</td>
+                        <td class="d">python基礎程式設計</td>
+                        <td class="e">Web基礎程式設計</td>
+                    <tr>
+                        <td> 16:10</td>
+                            <td colspan="6"<p style="font-size: 20px"></p>byebye</td>
+                    </tr>
+                </small></table>
+            </main>
+        <div class="right-side" contenteditable>Calender 
+            <img src="/Users/ecchang/Documents/demo/demo/August-2020-Calendar.jpg" alt="Calender"
+            width="500px" height="500px">
+        </div>
+    <footer class="footer">Footer</footer>
+    </div>
+
+   <br><br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>
